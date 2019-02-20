@@ -55,9 +55,9 @@ typedef unsigned __int64 uint64_t;
 #endif
 /*!
  * \brief
- *  x dimension of data must be bigger pad_size * ratio to be alloced padded memory,
+ *  x dimension of data must be bigger pad_size * ratio to be allocated padded memory,
  *  otherwise use tide allocation
- *  for example, if pad_ratio=2, GPU memory alignement size is 32,
+ *  for example, if pad_ratio=2, GPU memory alignment size is 32,
  *  then we will only allocate padded memory if x dimension > 64
  *  set it to 0 then we will always allocate padded memory
  */
